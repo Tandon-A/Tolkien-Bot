@@ -70,7 +70,7 @@ class sbot:
   def model_loss(self,logit,label):
     tf.stop_gradient(label)
     loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(logits=logit,labels=label))
-    #tf.summary.histogram("loss",loss)
+    tf.summary.histogram("loss",loss)            #saving loss variable summary. 
     return loss
   
   """
