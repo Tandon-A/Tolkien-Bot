@@ -1,6 +1,6 @@
 # Tolkien Bot 
 
-Tensorflow implementation of a character level language model to generate texts. 
+Character level language model implemented in tensorflow to generate text.
 
 
 ## Prerequisites
@@ -139,7 +139,7 @@ Yo yo
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE]() file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Tandon-A/Tolkien-Bot/blob/master/LICENSE) file for details
 
 ## Author 
 
